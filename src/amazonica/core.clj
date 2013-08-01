@@ -28,6 +28,8 @@
 
 (defonce ^:private credential (atom {}))
 
+
+
 (def ^:dynamic ^:private *credentials* nil)
 
 (def ^:dynamic ^:private *client-class* nil)
